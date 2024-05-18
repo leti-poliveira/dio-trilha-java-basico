@@ -20,9 +20,6 @@ public void mudarCanal (int novoCanal){ //esta linha fica como um parâmetro "qu
 
 
 
-
-
-
     public void aumentarVolume(){
         volume++;  //ou volume = volume + 1;  - valores unários.
         System.out.println("Aumentando o Volume para " + volume);
