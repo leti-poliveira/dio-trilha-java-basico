@@ -1,7 +1,7 @@
 package edu.leticia.metodos;
 
 public class SmartTv {
-    boolean ligada=false;
+    boolean ligada=false; //smartTv em 3 características a nível da classe
     int canal=1;
     int volume=25;
 

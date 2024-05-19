@@ -1,6 +1,6 @@
 package edu.leticia.anatomiadeclasses;
 
-public class Anatomiadeclasses {
+public class AnatomiaDeClasses {
     public static void main(String[] args) {
         
 /*Vamos criar um exemplo de uma classe para representar uma SmartTV onde:
