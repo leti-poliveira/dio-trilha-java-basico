@@ -1,7 +1,8 @@
-public class CondicaoTernaria {
+package estruturascondicionais;
+public class CondicaoTernariaEncadeada {
     
 // É o mesmo que a Condicional Encadeada (if, else if, else...
-//porén o código é mais LIMPO.
+//porém o código é mais LIMPO.
 
 // Cenário 1
 	public static void main(String[] args) {

@@ -1,7 +1,8 @@
+package estruturascondicionais.switchcase;
 public class SwitchCase {
     
 
-// o prof disse que é melhor usar o if else if else
+// o prof disse que é melhor usar o if else if else...
 
 
 // SistemaMedida.java

@@ -1,3 +1,4 @@
+package estruturascondicionais;
 public class CondicionalEncadeada {
    // ResultadoEscolar.java
 

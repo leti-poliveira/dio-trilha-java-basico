@@ -1,7 +1,8 @@
-public class SistemaMedida {
+package estruturascondicionais.ifelse;
+public class MedidaIfElse {
     
-// SistemaMedida.java
-//melhor usar esse do que switch case
+// Sistema de Medida:
+//melhor usar esse do que SwitchCase.java.
 
 	public static void main(String[] args) {
 		String sigla = "M";

@@ -1,3 +1,4 @@
+package estruturasderepeticao;
 import java.util.Random;
 
 public class ExemploDoWhile {

@@ -1,5 +1,8 @@
-public class PlanoOperadora {
+package estruturascondicionais.switchcase;
+public class OperadoraSwitchCase {
   
+//Modo condicional SWITCH CASE
+
 // Nesse caso compensa mais usar o switch case do que else if (exemplo abaixo)
 
 	public static void main(String[] args) { //esse exemplo não tem o break intencionalmente.

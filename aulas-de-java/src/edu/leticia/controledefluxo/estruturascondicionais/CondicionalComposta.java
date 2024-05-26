@@ -1,6 +1,7 @@
+package estruturascondicionais;
 public class CondicionalComposta {
 
-    // ResultadoEscolar.java
+    // Resultado Escolar:
 
     public static void main(String[] args) {
 

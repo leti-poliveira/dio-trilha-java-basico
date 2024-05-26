@@ -1,10 +1,12 @@
 package estruturasexcepcionais;
 
+import java.util.InputMismatchException;
 import java.util.Locale;
 import java.util.Scanner;
 
 public class TryCatch {
     public static void main(String[] args) {
+    try{
         // Criando o objeto scanner
         Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
 
@@ -27,4 +29,20 @@ public class TryCatch {
         
         scanner.close();   
     }
+    catch (InputMismatchException e ) {
+        System.out.println("O campo idade e altura precisam ser numéricos");
+        // ou System.err.println("O campo idade e altura precisam ser numéricos");
+    }
+  
+
 }
+
+}
+
+/*try {
+  //  bloco de código conforme esperado
+}
+catch(Exception e) {// precisamos saber qual exceção
+  // bloco de código que captura as exceções que podem acontecer
+  // em caso de um fluxo não previsto
+} */

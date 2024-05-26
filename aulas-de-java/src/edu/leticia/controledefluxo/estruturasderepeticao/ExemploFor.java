@@ -1,15 +1,17 @@
-package edu.leticia.estruturasderepeticao;
+package estruturasderepeticao;
 
 /*//estrutura do controle de fluxo for
 
-for (bloco de inicialização; expressão booleana de validação; bloco de atualização)
+for (bloco de inicialização; expressão booleana de validação;
+ bloco de atualização)
 {
      // comando que será executado até que a 
      // expressão de validação torne-se falsa 
 }
-*/
-//Vamos imaginar que Joãozinho precisa contar até 20 carneirinhos, para pegar no sono:
 
+Vamos imaginar que Joãozinho precisa contar até 20 carneirinhos, 
+para pegar no sono:
+*/
 public class ExemploFor {
     
 	public static void main(String[] args) {         //carneirinhos ++ operador unário de incrementação.

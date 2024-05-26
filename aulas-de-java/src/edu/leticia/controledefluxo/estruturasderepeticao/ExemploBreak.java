@@ -1,7 +1,8 @@
-public class Break {
-    
-// class ExemploBreakContinue.java
-	public static void main(String[] args) {
+package estruturasderepeticao;
+
+public class ExemploBreak {
+    public static void main(String[] args) {
+        // class ExemploBreakContinue.java
 	
 	for(int numero = 1; numero <=5; numero ++){
 		if(numero==3)
@@ -14,3 +15,4 @@ public class Break {
 
     }
 }
+
