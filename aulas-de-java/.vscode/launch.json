@@ -1,0 +1,65 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "AnatomiaDeClasses",
+            "request": "launch",
+            "mainClass": "edu.leticia.anatomiadeclasses.AnatomiaDeClasses",
+            "projectName": "aulas-de-java_5c606ae6"
+        },
+        {
+            "type": "java",
+            "name": "TiposDeComentario",
+            "request": "launch",
+            "mainClass": "edu.leticia.javadoc.TiposDeComentario",
+            "projectName": "aulas-de-java_5c606ae6"
+        },
+        {
+            "type": "java",
+            "name": "Usuario",
+            "request": "launch",
+            "mainClass": "edu.leticia.metodos.Usuario",
+            "projectName": "aulas-de-java_5c606ae6"
+        },
+        {
+            "type": "java",
+            "name": "Logicos",
+            "request": "launch",
+            "mainClass": "edu.leticia.operadores.Logicos",
+            "projectName": "aulas-de-java_5c606ae6"
+        },
+        {
+            "type": "java",
+            "name": "Relacionais",
+            "request": "launch",
+            "mainClass": "edu.leticia.operadores.Relacionais",
+            "projectName": "aulas-de-java_5c606ae6"
+        },
+        {
+            "type": "java",
+            "name": "AboutMe",
+            "request": "launch",
+            "mainClass": "edu.leticia.terminaleargumentos.AboutMe",
+            "projectName": "aulas-de-java_5c606ae6"
+            "args": ["LETICIA", "PAULA", "29", "1.58"]
+        },
+        {
+            "type": "java",
+            "name": "MinhaClasse",
+            "request": "launch",
+            "mainClass": "edu.leticia.terminaleargumentos.MinhaClasse",
+            "projectName": "aulas-de-java_5c606ae6"
+        }
+    ]
+}
