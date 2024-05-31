@@ -33,10 +33,7 @@ public class TryCatch {
         System.out.println("O campo idade e altura precisam ser numéricos");
         // ou System.err.println("O campo idade e altura precisam ser numéricos");
     }
-  
-
 }
-
 }
 
 /*try {
