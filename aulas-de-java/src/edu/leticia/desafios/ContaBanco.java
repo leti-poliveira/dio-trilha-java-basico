@@ -1,4 +1,4 @@
-package edu.leticia.desafios.contabanco;
+package edu.leticia.desafios;
 
 public class ContaBanco {
 
