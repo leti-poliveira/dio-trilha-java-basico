@@ -1,5 +1,7 @@
 package edu.leticia.desafios;
 
+//CÓDIGO CERTO FINALMENTE!!
+
 import java.util.Scanner;
 
 public class SimulacaoBancaria {
@@ -10,38 +12,25 @@ public class SimulacaoBancaria {
         boolean continuar = true;
 
         while (continuar) {
-            System.out.println("Escolha uma opção:");
-            System.out.println("1 - Depositar");
-            System.out.println("2 - Sacar");
-            System.out.println("3 - Exibir saldo");
-            System.out.println("0 - Encerrar programa");
-
             int opcao = scanner.nextInt();
 
             switch (opcao) {
                 case 1:
-                    System.out.println("Insira o valor a ser depositado:");
                     double valorDeposito = scanner.nextDouble();
                     saldo += valorDeposito;
-                    System.out.printf("Depósito realizado. Saldo atual: %.1f%n", saldo);
+                    System.out.println("Saldo atual: " + saldo);
                     break;
                 case 2:
-                    System.out.println("Insira o valor a ser sacado:");
                     double valorSaque = scanner.nextDouble();
-                    if (valorSaque > saldo) {
-                        System.out.println("Saldo insuficiente para saque.");
-                        continuar = false; // Encerra o programa devido ao saldo insuficiente
-                    } else {
-                        saldo -= valorSaque;
-                        System.out.printf("Saque realizado. Saldo atual: %.1f%n", saldo);
-                    }
+                    saldo = (saldo >= valorSaque) ? saldo - valorSaque : saldo;
+                    System.out.println((saldo >= valorSaque) ? "Saldo atual: " + saldo : "Saldo insuficiente.");
                     break;
                 case 3:
-                    System.out.printf("Saldo atual: %.1f%n", saldo);
+                    System.out.println("Saldo atual: " + saldo);
                     break;
                 case 0:
                     System.out.println("Programa encerrado.");
-                    continuar = false; // Atualiza a variável de controle para encerrar o loop
+                    continuar = false;
                     break;
                 default:
                     System.out.println("Opção inválida. Tente novamente.");
